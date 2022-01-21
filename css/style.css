@@ -1,0 +1,35 @@
+html { height: 100%; }
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background: #EDC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+canvas {
+  display: block;
+  cursor: move;
+}
+
+#container {
+	width: 100%;
+	height: 200px;
+	position: relative;
+	background: #000;
+	overflow: hidden;
+}
+
+#item{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #0091EA;
+}
