@@ -33,3 +33,27 @@ canvas {
 	border-radius: 50%;
 	background: #0091EA;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+section.conte {
+  height: 100vh;
+  width:auto;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img01{
+  background-image: url(blackboxlong.png);
+  background-color:#d68d2f;
+}
+.img02{
+  background-image: url(Xbox1.png);
+  background-color:#d1c6ce;
+}
+.img03{
+  background-image: url(03.jpg);
+  background-color:#90b7b2;
+}
